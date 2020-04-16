@@ -5,25 +5,80 @@
 // You can easily customize Bulma with your own variables.
 // Just uncomment the following block to see the result.
 
-/*
 // 1. Import the initial variables
 @import "../node_modules/bulma/sass/utilities/initial-variables";
 
 // 2. Set your own initial variables
 // Update the blue shade, used for links
-$blue: #06bcef;
-// Add pink and its invert
-$pink: #ff8080;
-$pink-invert: #fff;
-// Update the sans-serif font family
-$family-sans-serif: "Helvetica", "Arial", sans-serif;
-
+$bg-section-primary: #edf3f7;
+$family-sans-serif: " Arial", "Helvetica", sans-serif;
+$font-size: 1em;
 // 3. Set the derived variables
 // Use the new pink as the primary color
-$primary: $pink;
-$primary-invert: $pink-invert;
+$primary: #35a4e8;
+$secondary: #2f2f31;
+$grey: #949494;
+// $direction: rtl;
+// @mixin doc-direction($doc-direction) {
+//   @if ($doc-direction == "rtl") {
+//     $direction: rtl;
+//     $opposite-direction: ltr;
+//     $start-direction: right;
+//     $end-direction: left;
+//     $transform-direction: -1;
+//   } @else {
+//     $direction: ltr;
+//     $opposite-direction: rtl;
+//     $start-direction: left;
+//     $end-direction: right;
+//     $transform-direction: 1;
+//   }
+// }
 
 // 4. Import the rest of Bulma
-*/
-
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 @import "../node_modules/bulma/bulma";
+// @import "../node_modules/bulma/sass/utilities/_all.sass";
+// @import "../node_modules/bulma/sass/grid/columns.sass";
+// @import "../node_modules/bulma/sass/elements/button.sass";
+
+body {
+  font-size: $font-size;
+  font-family: 'Varela Round', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: normal;
+  margin-bottom: 8px;
+  color: $primary;
+}
+h1 {
+  font-size: 3.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h4 {
+  font-size: 1.4rem;
+}
+.is-section-primary {
+  background-color: $bg-section-primary;
+}
+.body-rtl {
+  direction: rtl;
+  text-align: right;
+}
+.body-ltr {
+  direction: ltr;
+  text-align: left;
+}
+.social-link {
+  font-size: 35px;
+}
+.grey {
+  color: $grey;
+}
