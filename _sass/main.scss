@@ -6,45 +6,39 @@
 // Just uncomment the following block to see the result.
 
 // 1. Import the initial variables
-@import "../node_modules/bulma/sass/utilities/initial-variables";
+@import '../node_modules/bulma/sass/utilities/initial-variables';
 
 // 2. Set your own initial variables
 // Update the blue shade, used for links
 $bg-section-primary: #edf3f7;
-$family-sans-serif: " Arial", "Helvetica", sans-serif;
+$family-sans-serif: ' Arial', 'Helvetica', sans-serif;
 $font-size: 1em;
+
 // 3. Set the derived variables
 // Use the new pink as the primary color
 $primary: #35a4e8;
+$primary-hovered: #81decd;
 $secondary: #2f2f31;
 $grey: #949494;
-// $direction: rtl;
-// @mixin doc-direction($doc-direction) {
-//   @if ($doc-direction == "rtl") {
-//     $direction: rtl;
-//     $opposite-direction: ltr;
-//     $start-direction: right;
-//     $end-direction: left;
-//     $transform-direction: -1;
-//   } @else {
-//     $direction: ltr;
-//     $opposite-direction: rtl;
-//     $start-direction: left;
-//     $end-direction: right;
-//     $transform-direction: 1;
-//   }
-// }
+
+$box-color: #727282;
+$box-bold-color: #2f2f31;
+$box-background-color: #f4f6fa;
+$box-radius: $radius-small;
+$box-padding: 1.25rem;
+$box-shadow: 0 0.5em 1em -0.125em #0000001a, 0 0px 0 1px #54545426;
 
 // 4. Import the rest of Bulma
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
-@import "../node_modules/bulma/bulma";
+@import '../node_modules/bulma/bulma';
+@import './spacing.scss';
 // @import "../node_modules/bulma/sass/utilities/_all.sass";
 // @import "../node_modules/bulma/sass/grid/columns.sass";
 // @import "../node_modules/bulma/sass/elements/button.sass";
 
 body {
-  font-size: $font-size;
-  font-family: 'Varela Round', sans-serif;
+    font-size: $font-size;
+    font-family: 'Varela Round', sans-serif;
 }
 h1,
 h2,
@@ -52,33 +46,71 @@ h3,
 h4,
 h5,
 h6 {
-  line-height: normal;
-  margin-bottom: 8px;
-  color: $primary;
+    line-height: normal;
+    margin: 8px 0;
+    color: $primary;
 }
 h1 {
-  font-size: 3.5rem;
+    font-size: 3.5rem;
 }
 h2 {
-  font-size: 2rem;
+    font-size: 2rem;
 }
 h4 {
-  font-size: 1.4rem;
+    font-size: 1.4rem;
 }
 .is-section-primary {
-  background-color: $bg-section-primary;
+    background-color: $bg-section-primary;
 }
 .body-rtl {
-  direction: rtl;
-  text-align: right;
+    direction: rtl;
+    text-align: right;
 }
 .body-ltr {
-  direction: ltr;
-  text-align: left;
+    direction: ltr;
+    text-align: left;
 }
 .social-link {
-  font-size: 35px;
+    font-size: 35px;
 }
 .grey {
-  color: $grey;
+    color: $grey;
+}
+p {
+    font-size: 1.5em;
+    margin: 4px 0 8px 0;
+}
+.button {
+    font-family: 'Varela Round', sans-serif;
+    transition: all 0.4s ease 0s;
+}
+.button.is-primary:hover,
+.button.is-primary.is-hovered {
+    background-color: $primary-hovered;
+    border-color: transparent;
+    color: #000;
+}
+.box {
+    border: 1px solid #6f6f6f;
+    p {
+        font-size: 1rem;
+        text-align: initial;
+    }
+    ul {
+        text-align: initial;
+        list-style: inside;
+    }
+    .icon {
+        font-size: 2.5em;
+        color: #808080;
+    }
+    .bold {
+        color: $box-bold-color;
+        font-weight: 600;
+    }
+}
+.my-story {
+    p {
+        text-align: initial;
+    }
 }
