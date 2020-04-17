@@ -40,25 +40,6 @@ body {
     font-size: $font-size;
     font-family: 'Varela Round', sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    line-height: normal;
-    margin: 8px 0;
-    color: $primary;
-}
-h1 {
-    font-size: 3.5rem;
-}
-h2 {
-    font-size: 2rem;
-}
-h4 {
-    font-size: 1.4rem;
-}
 .is-section-primary {
     background-color: $bg-section-primary;
 }
@@ -69,6 +50,11 @@ h4 {
 .body-ltr {
     direction: ltr;
     text-align: left;
+}
+.navbar-item {
+    img {
+        max-height: 9.5rem;
+    }
 }
 .social-link {
     font-size: 35px;
@@ -92,6 +78,7 @@ p {
 }
 .box {
     border: 1px solid #6f6f6f;
+    height: 100%;
     p {
         font-size: 1rem;
         text-align: initial;
@@ -112,5 +99,18 @@ p {
 .my-story {
     p {
         text-align: initial;
+    }
+}
+.navbar {
+    direction: ltr;
+}
+.logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    img {
+        margin: 16px;
+        height: 50px;
     }
 }

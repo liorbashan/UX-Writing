@@ -1,203 +1,272 @@
 <!DOCTYPE html>
 <html lang="hb">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{homepageTitle}}</title>
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"> -->
-    <link rel="stylesheet" href="css/main.css">
-    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"></script>
-  </head>
-  <body class="body-rtl">
-    <!-- Header -->
-    <section class="top-nav m-b-lg">
-      <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-9">
-            <div class="columns is-vcentered">
-              <div class="column is-one-third has-text-right">
-                <button class="is-link is-light button is-small">עברית</button>
-                <span> &nbsp; </span>
-                <button class="is-link is-light button is-small">English</button>
-              </div>
-              <div class="column is-one-third  has-text-centered"><img src="assets/logo.webp"></div>
-              <div class="column is-one-third has-text-left">
-                <a class="social-link grey" href="/" target="_blank"><i class="fab fa-facebook-square"></i></a>
-                <a href="/" class="social-link grey" target="_blank"><i class="fab fa-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Main Banner -->
-    <section class="is-section-primary p-b-lg p-t-lg">
-      <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-9">
-            <div class="level">
-              <div class="level-right">
-                <div class="level-item is-block">
-                  <h2 class="has-text-primary">הגיע הזמן</h2>
-                  <h1 class="has-text-primary">למצוא שפה משותפת<br>עם קהל היעד שלכם</h1>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>{{homepageTitle}}</title>
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet"> -->
+        <link rel="stylesheet" href="css/main.css" />
+        <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"></script>
+    </head>
+    <body class="body-rtl">
+        <!-- Header -->
+        <section>
+            <div class="container">
+                <div class="columns is-centered is-marginless">
+                    <div class="column is-full is-paddingless">
+                        <nav class="navbar" role="navigation" aria-label="main navigation">
+                            <div class="navbar-brand">
+                                <a class="navbar-item" href="/">
+                                    <img src="assets/logo_transparent_background.png" />
+                                </a>
+                                <!-- Burger -->
+                                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasic">
+                                    <span aria-hidden="true"></span>
+                                    <span aria-hidden="true"></span>
+                                    <span aria-hidden="true"></span>
+                                </a>
+                            </div>
+
+                            <div id="navbarBasic" class="navbar-menu">
+                                <div class="navbar-end">
+                                    <div class="navbar-item">
+                                        <a class="navbar-item social-link grey" href="/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+                                        <a class="navbar-item social-link grey" href="/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                                        <div class="buttons">
+                                            <button class="is-link is-light button is-small">עברית</button>
+                                            <span class="navbar-divider"></span>
+                                            <button class="is-link is-light button is-small">English</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
                 </div>
-              </div>
-              <div class="level-left">
-                <div class="level-item">
-                  <img src="assets/undraw_group_chat_v059.webp" >
+            </div>
+        </section>
+        <!-- Main Banner -->
+        <section class="is-section-primary p-b-lg p-t-lg">
+            <div class="container">
+                <div class="columns is-centered is-marginless">
+                    <div class="column is-9 is-centered">
+                        <div class="columns is-centered is-vcentered">
+                            <div class="column is-full has-text-centered">
+                                <h2 class="has-text-grey-dark subtitle is-3">הגיע הזמן</h2>
+                                <h1 class="has-text-primary title is-1">למצוא שפה משותפת עם קהל היעד שלכם</h1>
+                            </div>
+                        </div>
+                        <div class="column is-full has-text-centered">
+                            <img src="assets/undraw_group_chat_v059.webp" />
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Why -->
-    <section class="p-b-lg p-t-lg">
-      <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-9">
-            <h2 class="has-text-primary has-text-centered">למה?</h2>
-            <div class="p-t-lg p-b-lg">
-              <p>ממשקים דיגיטליים - אתרים, אפליקציות, אפילו קופות בשירות עצמי -
-                משמשים אותנו יותר ויותר. חלקם כבר מחליפים אינטראקציה אנושית. בעולם כזה, לשפת הממשק יש חשיבות עצומה.</p>
-                <p>השפה של המותג שלכם היא לא רק אמצעי לכתיבת הסברים והוראות, היא דרך נוספת לבלוט מעל המתחרים.
-                  שפת מותג טובה ומנומקת מתייחסת לנושאים שהכי חשובים לקהל היעד, בשפה שהכי מתאימה להם.</p>
-            </div>
-              <p class="has-text-primary has-text-centered">איך עושים את זה? בשביל זה אני פה :)</p>
-              <div class="has-text-centered p-t-lg p-b-lg">
-                <button class="button is-primary is-rounded is-size-5 p-t-none p-b-none">שכנעת אותי! מתי מתחילים?</button>
-              </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Tiles -->
-    <section class="is-section-primary p-b-lg p-t-lg">
-      <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-7 has-text-centered">
-            <div class="columns is-centered">
-              <div class="column is-full has-text-centered">
-                <div class="box">
-                  <span class="icon">
-                    <i class="far fa-keyboard"></i>
-                  </span>
-                  <h4 class="subtitle is-4 has-text-primary">אפיון שפה ומיקרו-קופי</h4>
-                  <p><span class="bold">אפיון שפה - אם המותג שלכם היה בן אדם, איך הוא היה נשמע?</span> כמו מוכר בשוק? אולי כמו מורה? או כמו החבר מהמילואים? אפיון שפה עונה על השאלה הזו בדיוק ועל הרבה שאלות אחרות. מטרתו היא להגדיר את אופי המותג או המוצר שלכם, ואיך בדיוק האופי הזה יתבטא בכל סוגי התקשורות עם קהל היעד שלכם.</p>
-                  <p><span class="bold">מיקרו-קופי:  מילים קטנות בממשקים דיגיטליים שמשפיעות בגדול. </span>טקסטים שמלווים פעולות של משתמשים באפליקציה/באתר, לדוגמה: כפתורים, טפסים, תהליכי רכישה, onboarding, הודעות שגיאה ועוד. אני כותבת מיקרו-קופי בעברית ובאנגלית.</p>
-                  <p><a href="/microcopy">עוד על מיקרו-קופי</a><br><a href="https://www.microcopim.co.il/blog/hebrew-challenges" target="_blank">על האתגרים שבכתיבת מיקרו-קופי בעברית</a></p>
+        </section>
+        <!-- Why -->
+        <section class="p-b-lg p-t-lg">
+            <div class="container">
+                <div class="columns is-centered is-marginless">
+                    <div class="column is-9">
+                        <h3 class="has-text-primary has-text-centered subtitle is-3">למה?</h3>
+                        <div class="p-t-lg p-b-lg">
+                            <p>ממשקים דיגיטליים - אתרים, אפליקציות, אפילו קופות בשירות עצמי - משמשים אותנו יותר ויותר. חלקם כבר מחליפים אינטראקציה אנושית. בעולם כזה, לשפת הממשק יש חשיבות עצומה.</p>
+                            <p>
+                                השפה של המותג שלכם היא לא רק אמצעי לכתיבת הסברים והוראות, היא דרך נוספת לבלוט מעל המתחרים. שפת מותג טובה ומנומקת מתייחסת לנושאים שהכי חשובים לקהל היעד, בשפה שהכי מתאימה
+                                להם.
+                            </p>
+                        </div>
+                        <p class="has-text-primary has-text-centered">איך עושים את זה? בשביל זה אני פה :)</p>
+                        <div class="has-text-centered p-t-lg p-b-lg">
+                            <button class="button is-primary is-rounded is-size-5 p-t-none p-b-none">שכנעת אותי! מתי מתחילים?</button>
+                        </div>
+                    </div>
                 </div>
-              </div>
             </div>
-            <div class="columns is-centered">
-              <div class="column is-half">
-                <div class="box">
-                  <span class="icon">
-                    <i class="fas fa-laptop"></i>
-                  </span>
-                  <h4 class="subtitle is-4 has-text-primary">ייעוץ חווית משתמש</h4>
-                  <p><span class="bold">התאמת המוצר, </span>האתר או האפליקציה שלכם למשתמשים בצורה הטובה ביותר.
-                    אשמח לייעץ בנושאי:</p>
-                    <ul>
-                      <li>Onboarding</li>
-                      <li>מבנה אתר ותפריטי ניווט </li>
-                      <li>תהליכי רכישה</li>
-                      <li>טפסים</li>
-                    </ul>
-                  <p>ועוד :)</p>
+        </section>
+        <!-- Tiles -->
+        <section class="is-section-primary p-b-lg p-t-lg">
+            <div class="container">
+                <div class="columns is-centered is-marginless">
+                    <div class="column is-7 has-text-centered">
+                        <div class="columns is-centered">
+                            <div class="column is-full has-text-centered">
+                                <div class="box">
+                                    <span class="icon">
+                                        <i class="far fa-keyboard"></i>
+                                    </span>
+                                    <h4 class="subtitle is-4 has-text-primary">אפיון שפה ומיקרו-קופי</h4>
+                                    <p>
+                                        <span class="bold">אפיון שפה - אם המותג שלכם היה בן אדם, איך הוא היה נשמע?</span> כמו מוכר בשוק? אולי כמו מורה? או כמו החבר מהמילואים? אפיון שפה עונה על השאלה
+                                        הזו בדיוק ועל הרבה שאלות אחרות. מטרתו היא להגדיר את אופי המותג או המוצר שלכם, ואיך בדיוק האופי הזה יתבטא בכל סוגי התקשורות עם קהל היעד שלכם.
+                                    </p>
+                                    <p>
+                                        <span class="bold">מיקרו-קופי: מילים קטנות בממשקים דיגיטליים שמשפיעות בגדול. </span>טקסטים שמלווים פעולות של משתמשים באפליקציה/באתר, לדוגמה: כפתורים, טפסים,
+                                        תהליכי רכישה, onboarding, הודעות שגיאה ועוד. אני כותבת מיקרו-קופי בעברית ובאנגלית.
+                                    </p>
+                                    <p>
+                                        <a href="/microcopy">עוד על מיקרו-קופי</a><br /><a href="https://www.microcopim.co.il/blog/hebrew-challenges" target="_blank"
+                                            >על האתגרים שבכתיבת מיקרו-קופי בעברית</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="columns is-centered">
+                            <div class="column is-half">
+                                <div class="box">
+                                    <span class="icon">
+                                        <i class="fas fa-laptop"></i>
+                                    </span>
+                                    <h4 class="subtitle is-4 has-text-primary">ייעוץ חווית משתמש</h4>
+                                    <p><span class="bold">התאמת המוצר, </span>האתר או האפליקציה שלכם למשתמשים בצורה הטובה ביותר. אשמח לייעץ בנושאי:</p>
+                                    <ul>
+                                        <li>Onboarding</li>
+                                        <li>מבנה אתר ותפריטי ניווט</li>
+                                        <li>תהליכי רכישה</li>
+                                        <li>טפסים</li>
+                                    </ul>
+                                    <p>ועוד :)</p>
+                                </div>
+                            </div>
+                            <div class="column is-half">
+                                <div class="box">
+                                    <span class="icon">
+                                        <i class="far fa-comment"></i>
+                                    </span>
+                                    <h4 class="subtitle is-4 has-text-primary">תוכן שיווקי</h4>
+                                    <p>כתיבה ועריכה של תכנים, ש<span class="bold">מבטאים את ייחודיות המותג </span>שלכם ו<span class="bold">מבליטים את היתרונות </span>שבו:</p>
+                                    <ul>
+                                        <li>תוכן לעמוד הבית.</li>
+                                        <li>תוכן לאתרי תדמית או אי-קומרס: אודות, עמודי מוצר, עמודי מידע.</li>
+                                        <li>ניוזלטרים.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="column is-half">
-                <div class="box">
-                  <span class="icon">
-                    <i class="far fa-comment"></i>
-                  </span>
-                  <h4 class="subtitle is-4 has-text-primary">תוכן שיווקי</h4>
-                  <p>כתיבה ועריכה של תכנים, ש<span class="bold">מבטאים את ייחודיות המותג </span>שלכם ו<span class="bold">מבליטים את היתרונות </span>שבו: </p><br>
-                  <ul>
-                    <li>תוכן לעמוד הבית.</li>
-                    <li>תוכן לאתרי תדמית או אי-קומרס:   אודות, עמודי מוצר, עמודי מידע.</li>
-                    <li>ניוזלטרים.</li>
-                  </ul>
-                  <p>&nbsp;</p>
+            </div>
+        </section>
+        <!-- My Story -->
+        <section class="p-b-lg p-t-lg">
+            <div class="container my-story">
+                <div class="columns is-centered is-marginless">
+                    <div class="column is-7 has-text-centered">
+                        <h4 class="subtitle is-4">הסיפור שלי</h4>
+                        <p class="is-size-6">
+                            היי, אני ענבל. אני כותבת מיקרו-קופי ומאפיינת שפה וממשקים דיגיטליים.<br />אני אוהבת לחקור, לנתח ולהבין - את עולם התוכן המקצועי שלכם, הנוף התחרותי, את קהל היעד, ואז ליישם
+                            וליצור - ממשק שיתאים בול למשתמשים שלכם ויהיה כמה שיותר קל ונוח לשימוש.<br />יש לי אהבה עזה למילים בכלל ולמילה הכתובה בפרט. אני מרותקת מהמגוון העצום שיש בהן מצד אחד, וממידת
+                            הדיוק וההתכווננות שהן מאפשרות מצד שני.
+                        </p>
+                        <p class="is-size-6">
+                            קצת היסטוריה<br />אי שם בשנת 2012, התחלתי לעבוד בחברת 888, שם נחשפתי לעולם השיווק הדיגיטלי ולעולם חווית המשתמש (UX). בתור בוגרת תואר בפסיכולוגיה, כבר ידעתי שאנשים מסקרנים
+                            אותי - לחקור ולהבין מה "מפעיל" אותם, מה מושך בעיניהם ומה מרתיע אותם.<br />אחרי שנה ב-888, הגעתי להובלת תחום ה- Conversion Optimization (שיפור יחס המרה) במחלקת B2C Bingo.
+                            התפקיד לימד אותי המון על UX - איך להסתכל על התנהגות של משתמשים, איך למדוד ולנתח אותה, ומהן הטעויות הנפוצות שאנחנו, האנשים שמתכננים ובונים אתרים ואפליקציות, עושים בדרך.<br />מתוך
+                            רצון להעמיק עוד בתחום ה- UX, עזבתי את 888 ונכנסתי לתפקיד של מנהלת מוצר בחברת תוכנה קטנה, עם מוצר SAAS שמיועד לקהל עסקי - B2B. שם לקחתי חלק במחזור החיים השלם של פיתוח מוצר,
+                            על כל ההיבטים שלו. הוספתי לידע הטכני שכבר היה לי, צברתי ניסיון נוסף באפיון ותכנון ממשקים וגם כתבתי מיקרו-קופי.
+                        </p>
+                        <p class="is-size-6">משם יצאתי לדרך ככותבת מיקרו-קופי ומאפיינת שפה עצמאית והשאר, כמו שאומרים, היסטוריה.</p>
+                    </div>
                 </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- My Story -->
-    <section class="p-b-lg p-t-lg">
-      <div class="container my-story">
-        <div class="columns is-centered">
-          <div class="column is-7 has-text-centered">
-            <h4 class="subtitle is-4">הסיפור שלי</h4>
-            <p class="is-size-6">היי, אני ענבל. אני כותבת מיקרו-קופי ומאפיינת שפה וממשקים דיגיטליים.<br>אני אוהבת לחקור, לנתח ולהבין - את עולם התוכן המקצועי שלכם, הנוף התחרותי, את קהל היעד, ואז ליישם וליצור - ממשק שיתאים בול למשתמשים שלכם ויהיה כמה שיותר קל ונוח לשימוש.<br>יש לי אהבה עזה למילים בכלל ולמילה הכתובה בפרט. אני מרותקת מהמגוון העצום שיש בהן מצד אחד, וממידת הדיוק וההתכווננות שהן מאפשרות מצד שני.</p>
-            <p class="is-size-6">קצת היסטוריה<br>אי שם בשנת 2012, התחלתי לעבוד בחברת 888, שם נחשפתי לעולם השיווק הדיגיטלי ולעולם חווית המשתמש (UX). בתור בוגרת תואר בפסיכולוגיה, כבר ידעתי שאנשים מסקרנים אותי - לחקור ולהבין מה "מפעיל" אותם, מה מושך בעיניהם ומה מרתיע אותם.<br>אחרי שנה ב-888, הגעתי להובלת תחום ה- Conversion Optimization (שיפור יחס המרה) במחלקת B2C Bingo. התפקיד לימד אותי המון על UX - איך להסתכל על התנהגות של משתמשים, איך למדוד ולנתח אותה, ומהן הטעויות הנפוצות שאנחנו, האנשים שמתכננים ובונים אתרים ואפליקציות, עושים בדרך.<br>מתוך רצון להעמיק עוד בתחום ה- UX, עזבתי את 888 ונכנסתי לתפקיד של מנהלת מוצר בחברת תוכנה קטנה, עם מוצר SAAS שמיועד לקהל עסקי - B2B. שם לקחתי חלק במחזור החיים השלם של פיתוח מוצר, על כל ההיבטים שלו. הוספתי לידע הטכני שכבר היה לי, צברתי ניסיון נוסף באפיון ותכנון ממשקים וגם כתבתי מיקרו-קופי.</p>
-            <p class="is-size-6">משם יצאתי לדרך ככותבת מיקרו-קופי ומאפיינת שפה עצמאית והשאר, כמו שאומרים, היסטוריה.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Customers -->
-    <section class="is-section-primary p-b-lg p-t-lg">
-      <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-7 has-text-centered">
-            <h4 class="subtitle is-4">לקוחות</h4>
-            <div><br>לקוחות</div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Form -->
-    <section class="p-b-lg p-t-lg">
-      <div class="container">
-        <div class="columns is-centered">
-          <div class="column is-7 has-text-centered">
-            <h3 class="subtitle is-3 has-text-primary">תהיו בקשר</h3>
-            <p class="has-text-primary has-text-centered is-size-5 m-b-lg">רוצים לשפר את חווית המשתמש במוצר שלכם? הגעתם למקום הנכון :)<br>מוזמנים לדבר איתי לגבי מיקרו-קופי, תוכן או כל דבר אחר שקשור לחוויית משתמש בדיגיטל</p>
-            <div class="columns is-centered">
-              <div class="column is-half">
-                <p class="is-size-6">אפשר לשלוח לי מייל</p>
-                <p class="is-size-6"><a href="mailto:inbal.reshef@gmail.com">inbal.reshef@gmail.com</a></p>
-              </div>
-              <div class="column is-half">
-                <p class="is-size-6">להתקשר אליי</p>
-                <p class="is-size-6">ענבל <a href="tel:972502424319">050-2424319</a></p>
-              </div>
+        </section>
+        <!-- Customers -->
+        <section class="is-section-primary p-b-lg p-t-lg">
+            <div class="container">
+                <div class="columns is-centered is-marginless">
+                    <div class="column is-9 has-text-centered">
+                        <h4 class="subtitle is-4">לקוחות</h4>
+                        <div class="container">
+                          <div class="logo-container">
+                            <img src="assets/customer-logos/designit_logo.webp" alt="customer">
+                            <img src="assets/customer-logos/shufersal_logo.png" alt="customer">
+                            <img src="assets/customer-logos/psagot_logo.webp" alt="customer">
+                            <img src="assets/customer-logos/wix_logo.webp" alt="customer">
+                            <img src="assets/customer-logos/kueez_logo.webp" alt="customer">
+                            <img src="assets/customer-logos/mimun_logo.webp" alt="customer">
+                            <img src="assets/customer-logos/bezeq_logo.webp" alt="customer">
+                            <img src="assets/customer-logos/raycatch_logo.webp" alt="customer">
+                            <img src="assets/customer-logos/polywizz_logo.webp" alt="customer">
+                            <img src="assets/customer-logos/hever_logo.webp" alt="customer">
+                            <img src="assets/customer-logos/adam_shriki_logo.webp" alt="customer">
+                            <img src="assets/customer-logos/dogmen_logo.webp" alt="customer">
+                            <img src="assets/customer-logos/anodot_logo.png" alt="customer">
+                            <img src="assets/customer-logos/getafix_logo.png" alt="customer">
+                          </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer -->
-    <footer class="footer has-text-centered">
-      <div class="container">
-         <div class="columns">
-          <div class="column is-8-desktop is-offset-2-desktop">
-            <p>
-              <strong class="has-text-weight-semibold">
-                <a href="https://www.npmjs.com/package/bulma-start">bulma-start@0.0.4</a>
-              </strong>
-            </p>
-            <p>
-              <small>
-                Source code licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>
-              </small>
-            </p>
-            <p style="margin-top: 1rem;">
-              <a href="http://bulma.io">
-                <img src="made-with-bulma.png" alt="Made with Bulma" width="128" height="24">
-              </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </footer>
-    <script type="text/javascript" src="lib/main.js"></script>
-  </body>
+        </section>
+        <!-- Form -->
+        <section class="p-b-lg p-t-lg">
+            <div class="container">
+                <div class="columns is-centered is-marginless">
+                    <div class="column is-7 has-text-centered">
+                        <h3 class="subtitle is-3 has-text-primary">תהיו בקשר</h3>
+                        <p class="has-text-primary has-text-centered is-size-5 m-b-lg">
+                            רוצים לשפר את חווית המשתמש במוצר שלכם? הגעתם למקום הנכון :)<br />מוזמנים לדבר איתי לגבי מיקרו-קופי, תוכן או כל דבר אחר שקשור לחוויית משתמש בדיגיטל
+                        </p>
+                        <div class="columns is-centered">
+                            <div class="column is-half">
+                                <p class="is-size-6">אפשר לשלוח לי מייל</p>
+                                <p class="is-size-6"><a href="mailto:inbal.reshef@gmail.com">inbal.reshef@gmail.com</a></p>
+                            </div>
+                            <div class="column is-half">
+                                <p class="is-size-6">להתקשר אליי</p>
+                                <p class="is-size-6">ענבל <a href="tel:972502424319">050-2424319</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Footer -->
+        <footer class="footer has-text-centered">
+            <div class="container">
+                <div class="columns">
+                    <div class="column is-8-desktop is-offset-2-desktop">
+                        <p>
+                            <strong class="has-text-weight-semibold">
+                                <a href="https://www.npmjs.com/package/bulma-start">bulma-start@0.0.4</a>
+                            </strong>
+                        </p>
+                        <p>
+                            <small> Source code licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a> </small>
+                        </p>
+                        <p style="margin-top: 1rem;">
+                            <a href="http://bulma.io">
+                                <img src="made-with-bulma.png" alt="Made with Bulma" width="128" height="24" />
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script type="text/javascript" src="lib/main.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', () => {
+                // Get all "navbar-burger" elements
+                const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+
+                // Check if there are any navbar burgers
+                if ($navbarBurgers.length > 0) {
+                    // Add a click event on each of them
+                    $navbarBurgers.forEach((el) => {
+                        el.addEventListener('click', () => {
+                            // Get the target from the "data-target" attribute
+                            const target = el.dataset.target;
+                            const $target = document.getElementById(target);
+
+                            // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
+                            el.classList.toggle('is-active');
+                            $target.classList.toggle('is-active');
+                        });
+                    });
+                }
+            });
+        </script>
+    </body>
 </html>

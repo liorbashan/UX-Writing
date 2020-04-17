@@ -7358,25 +7358,6 @@ body {
   font-size: 1em;
   font-family: 'Varela Round', sans-serif; }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  line-height: normal;
-  margin: 8px 0;
-  color: #35a4e8; }
-
-h1 {
-  font-size: 3.5rem; }
-
-h2 {
-  font-size: 2rem; }
-
-h4 {
-  font-size: 1.4rem; }
-
 .is-section-primary {
   background-color: #edf3f7; }
 
@@ -7387,6 +7368,9 @@ h4 {
 .body-ltr {
   direction: ltr;
   text-align: left; }
+
+.navbar-item img {
+  max-height: 9.5rem; }
 
 .social-link {
   font-size: 35px; }
@@ -7408,7 +7392,8 @@ p {
   color: #000; }
 
 .box {
-  border: 1px solid #6f6f6f; }
+  border: 1px solid #6f6f6f;
+  height: 100%; }
   .box p {
     font-size: 1rem;
     text-align: initial; }
@@ -7424,3 +7409,15 @@ p {
 
 .my-story p {
   text-align: initial; }
+
+.navbar {
+  direction: ltr; }
+
+.logo-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  .logo-container img {
+    margin: 16px;
+    height: 50px; }
